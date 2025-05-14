@@ -2,9 +2,11 @@
 
 A mod for REPO game that allows converting equippable items into money.
 
-## ⚠️ IMPORTANT WARNING ⚠️
+## ⚠️ IMPORTANT WARNINGS ⚠️
 
-**WARNING**: When converting an item into money, it is completely removed from the current save. After reloading the level or saving, this item will be permanently lost. Make sure you really want to sell the item before using this feature.
+**WARNING 1**: When converting an item into money, it is completely removed from the current save. After reloading the level or saving, this item will be permanently lost. Make sure you really want to sell the item before using this feature.
+
+**WARNING 2**: This mod should ONLY be used by the HOST player. If used by other players, sold items will reappear after level reload or game restart. This is due to the game's synchronization system.
 
 ## How to Use
 
@@ -40,10 +42,10 @@ The key for selling items can be changed in the mod configuration:
 - Default: `H`
 - Configuration file: `BepInEx/config/OldBody.ItemSeller.cfg`
 
-
 ## Requirements
 
-- BepInEx 5.x
+- REPOLib
+- BepInEx 
 
 ## Author
 
